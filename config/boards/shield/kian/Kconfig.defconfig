@@ -3,8 +3,6 @@ if SHIELD_KIAN_LEFT
 config ZMK_KEYBOARD_NAME
 	default "Kian"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
 
 endif
 
@@ -12,6 +10,9 @@ if SHIELD_Kian_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "Kian Right"
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
 	
 endif
 
